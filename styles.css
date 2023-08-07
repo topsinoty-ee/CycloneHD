@@ -15,22 +15,23 @@
   );
 }
 
-.btn-purple, .btn-black {
+.btn-purple,
+.btn-black {
   @apply border-4  bg-white px-4 self-center mt-3 py-2 font-redhat font-semibold border-b-8 rounded-2xl;
 }
 .btn-black {
   @apply border-black;
 }
-.btn-purple{
-    @apply border-purple-900
+.btn-purple {
+  @apply border-purple-900;
 }
 
-.btn-purple:hover, .btn-black:hover{
-    @apply border-b-4 
+.btn-purple:hover,
+.btn-black:hover {
+  @apply border-b-4;
 }
 
 a {
-  color: black;
   text-decoration: none;
   background-image: linear-gradient(#222b40, #222b40),
     linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)),
@@ -46,35 +47,42 @@ a:hover {
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
 
-
-.wrapper{
-    
+code a {
+  @apply text-blue-700;
 }
 
-.section{
-
+#menu {
+  @apply rounded-lg overflow-hidden;
+}
+#menu li {
+  @apply bg-slate-400 px-4 py-2 hover:bg-white;
 }
 
-.columns{
-
+#menu li a {
+  @apply text-white hover:text-black w-full block;
 }
 
-.columns-container{
-
+.wrapper {
 }
 
-.img{
-
+.section {
+  @apply flex items-center flex-col w-full;
 }
 
-.footer{
-
+.columns {
 }
 
-.title{
-
+.columns-container {
 }
 
-.description{
-    
+.img {
+}
+
+.footer {
+}
+
+.title {
+}
+
+.description {
 }
