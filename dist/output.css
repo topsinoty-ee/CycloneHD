@@ -1031,6 +1031,66 @@ code a {
     height: calc(100vh + 40px);
   }
 
+  .sm\:h-\[calc\(20\)\] {
+    height: calc(20);
+  }
+
+  .sm\:h-\[calc\(20\%-\)\] {
+    height: calc(20% - );
+  }
+
+  .sm\:h-\[calc\(20\%-1\)\] {
+    height: calc(20% - 1);
+  }
+
+  .sm\:h-\[calc\(20\%-20px\)\] {
+    height: calc(20% - 20px);
+  }
+
+  .sm\:h-\[calc\(100\%-20px\)\] {
+    height: calc(100% - 20px);
+  }
+
+  .sm\:h-\[calc\(100vw-20px\)\] {
+    height: calc(100vw - 20px);
+  }
+
+  .sm\:h-\[calc\(100vh-20px\)\] {
+    height: calc(100vh - 20px);
+  }
+
+  .sm\:h-\[calc\(20vw-20px\)\] {
+    height: calc(20vw - 20px);
+  }
+
+  .sm\:h-\[calc\(10vw-20px\)\] {
+    height: calc(10vw - 20px);
+  }
+
+  .sm\:h-\[calc\(15vw-20px\)\] {
+    height: calc(15vw - 20px);
+  }
+
+  .sm\:h-\[calc\(10vw\\20px\)\] {
+    height: calc(10vw\20px);
+  }
+
+  .sm\:h-\[calc\(10vw20px\)\] {
+    height: calc(10vw20px);
+  }
+
+  .sm\:h-\[calc\(10vw\+20px\)\] {
+    height: calc(10vw + 20px);
+  }
+
+  .sm\:h-\[calc\(10vw\+10px\)\] {
+    height: calc(10vw + 10px);
+  }
+
+  .sm\:h-\[calc\(10vw-10px\)\] {
+    height: calc(10vw - 10px);
+  }
+
   .sm\:w-\[\] {
     width: ;
   }
